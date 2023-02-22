@@ -9,40 +9,34 @@
 :: Install all softwares below
 :: If you want insert or remove any software in this script insert or remove below
 :: Search in https://community.chocolatey.org/packages you software, some software can be change name to install
+:: Pass parameter "-y" after all softwares to accept all terms in the same time 
 choco install ^
-:: - Android studio 
-:: virtualbox ^ 
-:: genymotion ^ 
-:: androidstudio ^
-:: android-sdk^
-:: - Docker
-:: docker-cli ^
-:: docker-desktop ^
-:: - Programmer
 vscode ^
 git ^
 insomnia-rest-api-client ^
 nodejs-lts ^
 wsl2 ^
-:: - Communication
 discord  ^
 telegram ^
 whatsapp ^
-:: - Font
 firacode ^
 jetbrainsmono ^
-:: - Games
 steam ^
 epicgameslauncher ^
-:: - Browser
 googlechrome ^
-:: - Others
 bitwarden ^
 javaruntime ^
 lightshot.install ^
 vlc ^
 powertoys ^
-:: This command accept all terms to install each software automatically
 -y
 
 PAUSE 
+
+:: SOFTWARES REMOVED TO INSTALL IN OTHER TIME  
+:: virtualbox ^ 
+:: genymotion ^ 
+:: androidstudio ^
+:: android-sdk^
+:: docker-cli ^
+:: docker-desktop ^
